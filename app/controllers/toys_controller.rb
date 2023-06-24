@@ -21,6 +21,7 @@ class ToysController < ApplicationController
     toy.destroy
     head :no_content
   end
+  
 
   private
   
